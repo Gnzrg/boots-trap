@@ -1,0 +1,33 @@
+.container{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    height: 50vh;
+    gap: 24px;
+    background-color: #ccc;
+}
+.container div{
+    width: 31%;
+    display: flex;
+    justify-content: space-evenly;
+  border-radius: 10px;
+    background-color: brown;
+    border: 1px solid black;
+}
+#btn{
+    margin-top: 30px;
+    width: 50%;
+    background-color: rgb(91, 176, 176);
+    border-radius: 10px;
+    height: 50px;
+    border: none;
+}
+#btn-2{
+    margin-top: 30px;
+    width: 50%;
+    background-color: #ccc;
+    border-radius: 10px;
+    height: 50px;
+    border: none;
+}
